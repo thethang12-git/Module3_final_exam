@@ -1,3 +1,4 @@
+import HeaderApp from '../components/header';
 import './globals.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -21,6 +22,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body>
+        <HeaderApp />
         {children}
       </body>
     </html>
